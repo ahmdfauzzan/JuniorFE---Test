@@ -1,0 +1,32 @@
+{
+  "name": "support-be-technical-test-fe",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx cross-env NODE_ENV=dev PORT=8001 STAGE=dev node -r @swc/register src/index.ts",
+    "dev:firebase": "npx cross-env NODE_ENV=dev AUTH_FIREBASE=true PORT=8001 STAGE=dev node -r @swc/register src/index.ts"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.2.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "firebase-admin": "^13.4.0",
+    "lodash": "^4.17.21",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.12.9",
+    "@swc/register": "^0.1.10",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/body-parser": "^1.19.6",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/lodash": "^4.17.20"
+  }
+}

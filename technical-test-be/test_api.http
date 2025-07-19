@@ -1,0 +1,5 @@
+### GET request to example server
+# curl --location 'http://localhost:8001/api/web/v1/products' --header 'authorization;'
+GET http://localhost:8001/api/web/v1/products
+authorization:
+###
