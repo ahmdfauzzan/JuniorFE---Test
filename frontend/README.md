@@ -6,12 +6,12 @@ Ini adalah proyek [Next.js](https://nextjs.org) yang dibuat menggunakan [`create
 
 Langkah pertama, install dependencies yang dibutuhkan:
 
-````bash
+```bash
 npm install
-
+```
 
 ## 📦 Menjalankan aplikasi
 
 ```bash
 npm run dev
-````
+```
